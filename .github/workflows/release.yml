@@ -3,6 +3,7 @@
 # and put the release notes into the commit message for the tag.
 name: Release Binary Package
 on:
+  workflow_dispatch:
   push:
     tags:
       - "v*.*.*"
